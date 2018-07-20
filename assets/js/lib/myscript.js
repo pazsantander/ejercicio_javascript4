@@ -22,6 +22,10 @@ $( document ).ready( function (){
     $("#image").change(function(){
         $(".create__image").attr('src', '/assets/images/squared/' + this.value);
     });
-        
+     
+    //Agregar perfil del autor
+    $("#image").change(function(){
+        $(".create__image").attr('src', '/assets/images/profiles/' + this.value);
+    });
 
 })
