@@ -18,4 +18,10 @@ $( document ).ready( function (){
         return false;
    });
 
+   //Agregar imagen seleccionada
+    $("#image").change(function(){
+        $(".create__image").attr('src', '/assets/images/squared/' + this.value);
+    });
+        
+
 })
