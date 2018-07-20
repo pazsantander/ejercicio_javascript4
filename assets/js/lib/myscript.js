@@ -24,8 +24,8 @@ $( document ).ready( function (){
     });
      
     //Agregar perfil del autor
-    $("#image").change(function(){
-        $(".create__image").attr('src', '/assets/images/profiles/' + this.value);
+    $("#author").change(function(){
+        $(".create__select").attr('src', '/assets/images/profiles/' + this.value);
     });
 
 })
